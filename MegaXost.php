@@ -4,7 +4,7 @@
 ob_start();
 $API_KEY = '6536539841649:AAHS2jC0VwPwqZTbzDvyLNM5iHfYsgVQEMA9841649:AAHS2jC0VwPwqZTbzDvyLNM5iHfYsgVQEMA6539841649:AAHS2jC0VwPwqZTbzDvyLNM5iHfYsgVQEMA';
 // @Abroriy tomonidan @Bot_Masterlar Kanali orqali tarqatildi
-echo "api.telegram.org/bot$API_KEY/setwebhook?url=".$_SERVER['000webhost.com']."".$_SERVER['yaxshiqalay'];
+echo "api.telegram.org/bot$API_KEY/setwebhook?url=".$_SERVER['github.com']."".$_SERVER['Foydaliroq'];
 define('6536539841649:AAHS2jC0VwPwqZTbzDvyLNM5iHfYsgVQEMA9841649:AAHS2jC0VwPwqZTbzDvyLNM5iHfYsgVQEMA6539841649:AAHS2jC0VwPwqZTbzDvyLNM5iHfYsgVQEMA',$API_KEY);
 function bot($method,$datas=[]){
 $url = "https://api.telegram.org/bot".API_KEY."/".$method;
